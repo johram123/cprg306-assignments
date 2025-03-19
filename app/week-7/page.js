@@ -12,7 +12,6 @@ export default function Page() {
     setItems([...items, item]);
   };
 
-  console.log(items);
   return (
     <main className="flex flex-col items-center bg-gray-950">
       <h1 className="text-5xl font-bold m-7">Shopping List</h1>
